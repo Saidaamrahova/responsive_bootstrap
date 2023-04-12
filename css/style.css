@@ -1,0 +1,53 @@
+.mynavbar,
+.myfooter {
+    width: 100%;
+    min-height: 70px;
+    background: red;
+    float: left;
+    margin-top: 15px;
+}
+
+.mynavbar {
+    margin-bottom: 15px;
+}
+
+.mynav {
+    width: 100%;
+    min-height: 470px;
+    background: blue;
+    float: left;
+}
+
+.mycontent {
+    width: 100%;
+    min-height: 470px;
+    background: green;
+    float: left;
+}
+
+.mysidebar {
+    width: 100%;
+    min-height: 470px;
+    background: purple;
+    float: left;
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    .mycontent , .mysidebar , .mynav{
+        min-height: 150px;
+        background-color: aqua;
+    }
+    .mycontent{
+        margin: 15px 0;
+    }
+}
+
+
+
+
+
+
